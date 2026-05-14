@@ -3,6 +3,7 @@
 Generates a satellite image with Apple Maps (MapKit) using DD X,Y coordinates
 Made by Owen Edwards / ACS "a creative solution"
 an open source program made for everyone to enjoy, because fuck google and their map API keys.
+v.1.0.0
 
 """
 import os
