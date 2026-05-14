@@ -62,7 +62,8 @@ After you've installed python3 in Homebrew run this command.
   (example below: im working on getting that tab to load above the image, I know it's annoying)
   
 
-  <img width="421" height="350" alt="Screenshot 2026-05-14 at 1 47 19 PM" src="https://github.com/user-attachments/assets/26f2cbe0-f73a-4f68-bda9-ae4bc695a57b" />
+<img width="421" height="350" alt="Screenshot 2026-05-14 at 1 47 19 PM" src="https://github.com/user-attachments/assets/c7fec697-ea1f-4561-88b1-a6c814f6cdfd" />
+
 
 
   To exit Sat_Snaps just type exit and hit enter.
