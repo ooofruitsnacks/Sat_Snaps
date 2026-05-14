@@ -2,6 +2,13 @@
 It's a bird... it's a plane... no its a space camera!! Take satellite pictures of whatever location you want using Apple's native MapKit because f%#@ google API keys and their reduced image quality.
 
 
+EX:
+
+
+<img width="1920" height="1080" alt="satmap_-37 81360_144 96310" src="https://github.com/user-attachments/assets/6f665228-d94b-4579-9a4f-da044d99372c" />
+
+
+
 # Welcome
 Sat_Snaps is designed for Mac users currently but I'm working hard at porting this over to other platforms eventually.
 
