@@ -4,10 +4,9 @@
 
 The only current public version is v.1.0.0. This will remain supported with safety, security, and performance updates until this repo is marked "read only".
 
-| Version | Supported          |
+| Version | Supported Y/N      |
 | ------- | ------------------ |
 | v.1.0.0 |   :green_circle:   |
-|_________|____________________|
 
 ## Reporting a Vulnerability
 
