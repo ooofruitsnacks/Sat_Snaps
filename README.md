@@ -1,5 +1,5 @@
 # Sat_Snaps (MAC OS ONLY CURRENTLY)
-It's a bird... it's a plane... no its a space camera!! Take satellite pictures of whatever location you want using Apple's native MapKit because f%#@ google API keys and their reduced image quality.
+It's a bird... it's a plane... no it's a space camera!! Take satellite pictures of whatever location you want using Apple's native MapKit because f%#@ google API keys and their reduced image quality.
 
 EX:
 
@@ -37,7 +37,7 @@ After you've installed python3 in Homebrew run this command.
   ### HOW THIS COMMAND WORKS
 
   `python3 -m venv path/to/venv
-  source path/to/venv/bin/activate` will setup a virtual environment for python3, I recommend doing it this way instead of giviing python3 systemwide access. 
+  source path/to/venv/bin/activate` will setup a virtual environment for python3, I recommend doing it this way instead of giving python3 systemwide access. Virtual environments can be contained and monitored easier. 
 
 
   `python3 -m pip install pyobjc-framework-MapKit pyobjc-framework-CoreLocation pyobjc-framework-Quartz` will install the dependencies required to run Sat_Snaps.
@@ -45,7 +45,7 @@ After you've installed python3 in Homebrew run this command.
   now hit command+Q to close the terminal
 
 
-  # OPEN A NEW VIRTUAL ENVIRONMENT AND RUN SAT_SNAPS
+  # Open a new vitrual environment and launch Sat_Snaps
 `python3 -m venv path/to/venv
   source path/to/venv/bin/activate && python3 Sat_Snaps.py`
 
@@ -77,7 +77,7 @@ After you've installed python3 in Homebrew run this command.
   Have Fun! Instructions on how to edit locations and zoom settings will be below. 
 
 
-  # CHANGE LOCATIONS, RESOLUTION, AND ZOOM
+  # Change location, resolution and zoom
   Open your preferred text editor and open the Sat_Snaps.py source code file.
   
 
@@ -86,11 +86,30 @@ After you've installed python3 in Homebrew run this command.
 
   You can add/change locations starting on Line 32, just follow the same format.
 
+  <img width="829" height="245" alt="Screenshot 2026-05-14 at 10 16 06 PM" src="https://github.com/user-attachments/assets/46527f2d-22ea-4f3d-964c-0d7dc94bedc5" />
+
+
 
   ### RESOLUTION AND ZOOM
 
 
-On lines 232 and 399, make sure the lat and lng width's/height's/span degrees all match. It is preset to 1920x1080 which is optiimized to the best qaulity settings currently. You can increase the span degree to zoom out EX: 0.0050 or you can zoom in by decreasing the span degree EX: 0.0006. After all changes have been saved to the file, run the commands to open a virtual environment and run the Sat_Snaps command. 
+On lines 232 and 399, make sure the lat and lng width's/height's/span degrees all match eachother. It is preset to 1920x1080 which is optiimized to the best qaulity settings currently. You can increase the span degree to zoom out EX: 0.0050 or you can zoom in by decreasing the span degree EX: 0.0006. After all changes have been saved to the file, run the commands to open a virtual environment and run the Sat_Snaps command. 
+
+
+Keep in mind, at the time of writing this these settings can be found on lines 232 and 399. As the source code is updated or you make your own changes, these lines will change the location. Get comfortable with how to navigate the source code, memorizing line numbers is not an efficient way of navigation.
+
+
+### line 232 EX:
+
+
+<img width="644" height="235" alt="Screenshot 2026-05-14 at 10 15 04 PM" src="https://github.com/user-attachments/assets/e3a46433-f496-4d92-8772-f7935bd4db54" />
+
+
+### line 399 EX:
+
+
+<img width="648" height="355" alt="Screenshot 2026-05-14 at 10 13 54 PM" src="https://github.com/user-attachments/assets/30612a71-c8e6-4f3f-baff-72b4e8b9bba7" />
+
 
   
   
